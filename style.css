@@ -1,0 +1,230 @@
+
+
+body{
+    background-color: #333;
+}
+
+/* Main Section Style */
+#mainSection{
+margin: 6rem 2rem;
+display: flex;
+background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 50px auto;
+
+}
+
+#profileimg {
+    
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: 5rem;
+}
+
+#information {
+    display: flex;
+    gap: 50px; 
+    align-items: center;
+  }
+  
+  .info-block {
+    display: flex;
+    gap: 10px; 
+    align-items: center;
+  }
+
+
+  #textSection{
+    margin: 0 3rem;
+  }
+
+  /* Social Icoons Style */
+
+  #socialIcons {
+    display: flex;
+    gap: 10px; 
+    margin-top: 20px;
+  }
+  
+  #socialLinks {
+    display: inline-block;
+  }
+  
+  #icons {
+    width: 35px;  
+    height: 35px;  
+    object-fit: contain;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  #icons:hover {
+    transform: scale(1.1); 
+  }
+
+
+/* ....................................... */
+
+/* Experience Section */
+
+
+.experience-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2d3748;
+    margin-bottom: 15px;
+}
+
+.section-description {
+    text-align: center;
+    font-size: 1.125rem;
+    color: #4a5568;
+    margin-bottom: 25px;
+}
+
+.experience-items {
+    display: block;
+    margin-top: 20px;
+}
+
+.experience-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.skill-name {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #1D4ED8; /* Blue color */
+    margin-bottom: 10px;
+}
+
+.skill-description {
+    font-size: 1rem;
+    color: #718096;
+    line-height: 1.6;
+}
+
+
+/* Education Section */
+
+.education-container {
+    background-color: #f0f4f8;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2d3748;
+    margin-bottom: 15px;
+}
+
+.section-description {
+    text-align: center;
+    font-size: 1.125rem;
+    color: #4a5568;
+    margin-bottom: 25px;
+}
+
+.education-items {
+    display: block;
+    margin-top: 20px;
+}
+
+.education-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.degree-name {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #1D4ED8; /* Blue color */
+    margin-bottom: 10px;
+}
+
+.degree-description {
+    font-size: 1rem;
+    color: #718096;
+    line-height: 1.6;
+}
+
+.degree-duration {
+    font-size: 1rem;
+    color: #4A5568;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+
+/* Skills Styles */
+
+.skills-container {
+    background-color: #f7fafc;
+    padding: 40px ;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2d3748;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.25rem;
+    color: #2d3748;
+}
+
+.skill-item {
+    padding: 10px;
+    border-bottom: 1px solid #e2e8f0;
+    font-weight: 600;
+}
+
+.skill-item:last-child {
+    border-bottom: none;
+}
+
+.skill-item:hover {
+    background-color: #f7fafc;
+    cursor: pointer;
+}
+.about{
+    font-size: medium;
+    text-align: justify;
+}
